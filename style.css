@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-brand img {
+  width: 160px;
+  height: 70px;
+  object-fit: contain;
+}
+.dropdown a {
+  font-size: 13px;
+}
+
+.add_cart {
+  font-size: 8px;
+  height: 16px;
+  width: 16px;
+}
+.dropdown-menu li a:hover {
+  background-color: rgb(20, 126, 224) !important;
+  color: #fff !important;
+}
+.btn_mumei:hover {
+  background-color: black;
+}
+.banner {
+  background-image: url("image/doc-globe.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10em 0;
+  z-index: 1;
+}
+.banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background: rgba(231, 226, 226, 0.6);
+  z-index: -1;
+}
+.routine {
+  background-color: #14457b;
+}
+.infohours li {
+  text-decoration: none;
+}
+.divider {
+  margin-bottom: 3px;
+}
+.box {
+  position: relative;
+  top: -6em;
+  z-index: 1;
+}
+.carousel-inner {
+  position: relative;
+  bottom: -7em;
+}
+.carousel-indicators {
+  bottom: -11em;
+}
+.staff_shift {
+  min-height: 361px;
+}
+.stethoscope {
+  height: 75px;
+  width: 75px;
+}
+.right_full {
+  background-color: #14457b;
+}
+.half {
+  min-height: 578px;
+}
+.metalink {
+  color: rgb(15, 168, 214);
+}
+.metalink:hover {
+  color: #000;
+}
+@media (max-width: 360px) {
+  .box {
+    position: static;
+  }
+  .upp {
+    padding: 5px;
+    justify-items: center;
+  }
+  .wiffin{
+    position: static;
+  }
+  .med{
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 768px) {
+  .half {
+    min-height: 630px;
+  }
+  .wiffin{
+    position: static;
+  }
+}
+@media (min-width:360px) {
+  .wiffin{
+    position: static;
+  }
+  
+
+}
+
+.image_slide1 {
+  position: relative;
+
+}
+.tea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.coffe {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+  transform: translateY(50px);
+  transition: all 2.5s;
+}
+.image_slide1:hover .tea {
+  opacity: 1;
+  transition: all 0.3s;
+}
+.image_slide1:hover .tea .coffe {
+  transition: all 1s;
+  transform: translateY(0px);
+}
+
+.moplus:hover{
+    background-color: #000;
+    border: 0;
+}
+.tiffin{
+    color: #000;
+}
+.tiffin:hover{
+   color:rgb(15, 168, 214);
+} 
+.miyai{
+    bottom: -60px;
+    position: relative;
+}
+.tap{
+    bottom: -60px;
+    position: relative; 
+}
+.btn_get:hover{
+  background-color: #000 !important;
+}
+.faciities{
+  background-image: url("image/5.png");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+}
+.wiffin{
+  position: absolute;
+  top: 41px;
+  left: 8px;
+  border-radius: 100%;
+  width: 48px;
+  height: 48px;
+}
+.doctor-details:hover {
+  color:rgb(15, 168, 214) !important;
+}
+.item_child2{
+  position: relative;
+  bottom: 50px ;
+  transition: all 1s;
+  transform: translateY(30%);
+  
+}
+
+.tag1:hover{
+  background-color: #000 !important;
+}
+.social-container{
+  position: absolute;
+  top: 0;
+  right: 15px;
+  opacity: 0;
+  transition: all 1s;
+  transform: translateY(-100%);
+}
+.conslide:hover .social-container {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 1s;
+}
+.conslide:hover .item_child2{
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 1s;
+}
